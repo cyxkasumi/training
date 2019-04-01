@@ -43,6 +43,7 @@
 <template>
   <div class="cont" ref="cont">
     <i :class="['icon', init?'':(show?'icon-show':'icon-hiden')]"></i>
+    <p>1111111111111</p>
     <p class="item" :ref="'item'+index" v-for="(item, index) in 100" :key="item" :data-item="item"></p>
   </div>
 </template>
